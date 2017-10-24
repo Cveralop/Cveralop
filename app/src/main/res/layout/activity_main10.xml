@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.claudio.horoscopo2.Main3Activity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ESCORPION"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/escorpio"
+        android:layout_weight="0.28" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.23"
+        android:text="El pesimismo sobre asuntos de dinero podría abatirte hoy en algún momento del día. Sin embargo, no hay nada realmente importante de lo qué preocuparse. Financieramente, tus asuntos de negocios deben ir bien, así que probablemente te va mejor de lo que piensas. Podría ser necesario algo de precaución, especialmente en relación con las compras impulsivas o de artículos de lujo. No deseas terminar teniendo que devolver ninguna compra a la tienda." />
+
+</LinearLayout>

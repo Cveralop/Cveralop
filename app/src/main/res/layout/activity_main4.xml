@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.claudio.horoscopo2.Main3Activity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TAURO"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/tauroo"
+        android:layout_weight="0.28" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.23"
+        android:text="Días como hoy te empujan a actuar en las áreas de tu vida donde podrías haber dudado antes. ¿Tu vida amorosa necesita un soplo de aire fresco? ¿Has estado soñando con una agradable cena romántica con tu pareja? ¿Un fin de semana en el campo? ¿Un nuevo hogar? Es hora de dejar de soñar con la felicidad y hacer lo que haya que hacer para conseguirla. Está dentro de tu alcance." />
+
+</LinearLayout>

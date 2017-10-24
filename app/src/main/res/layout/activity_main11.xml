@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.claudio.horoscopo2.Main3Activity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SAGITARIO"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/sagitario"
+        android:layout_weight="0.28" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.23"
+        android:text="Ciertos asuntos financieros podrían alterarte hoy. Puede que te das cuenta de lo mucho que has estado gastando últimamente o verás que las cosas van a estar apretadas en los próximos meses. Es posible que invirtieses una buena cantidad de dinero en algo que podría haber esperado, y ahora no puedes invertir en algo mucho más importante. Estas son las duras lecciones que tienes que aprender, pero todo el mundo las aprende en algún momento." />
+
+</LinearLayout>

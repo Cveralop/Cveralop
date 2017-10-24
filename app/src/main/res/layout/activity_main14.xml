@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.claudio.horoscopo2.Main3Activity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PISCIS"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/piscis"
+        android:layout_weight="0.28" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.23"
+        android:text="Es posible que hoy puedas conocer a alguien que actuará como una especie de Pigmalión para ti. Tienes que rodearte y recibir el aliento de gente que cree en ti, y es bueno para ti tener gente alrededor que te apoye. Si conoces a este tipo de persona, no fanfarronees. Escucha lo que tengan que decir. Es por tu propio bien." />
+
+</LinearLayout>

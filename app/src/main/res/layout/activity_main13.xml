@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.claudio.horoscopo2.Main3Activity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ACUARIO"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/acuario"
+        android:layout_weight="0.28" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.23"
+        android:text= "Los planetas quieren hacer un trato contigo hoy. O te quedas en la cama fantaseando acerca de la vida como un empresario importante o una estrella de rock o te levantas, te vistes, y haces lo que tengas que hacer para que tus sueños se hagan realidad. Trata de autoconvencerte de una vez por todas de que no tienes que perder tu asombro infantil cuando te enfrentes con el mundo real. Eso siempre es así, ¡no importa los años que cumplas!" />
+
+</LinearLayout>
